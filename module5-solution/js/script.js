@@ -224,7 +224,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
       $ajaxUtils.sendGetRequest(
         menuItemHtml,
         function (menuItemHtml) {
-          // Switch CSS class active to menu button
+          // Switch CSS class active to menu butto
           switchMenuToActive();
 
           var menuItemsViewHtml =
